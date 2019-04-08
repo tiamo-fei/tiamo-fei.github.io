@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
-  <title>Hexo</title>
+  <title>Material X</title>
   
   
 
   
-  <link rel="alternate" href="/blog-example/atom.xml" title="Hexo">
+  <link rel="alternate" href="/atom.xml" title="Material X">
   
 
   <meta name="HandheldFriendly" content="True" />
@@ -24,6 +24,7 @@
   
 
   <!-- link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
   
@@ -40,7 +41,7 @@
   
 
   
-  <link rel="stylesheet" href="/blog-example/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@19.4.18/css/style.css">
   
 
   <script>
@@ -54,62 +55,64 @@
 </head>
 
 <body>
-    <div id="loading-bar-wrapper">
-  <div id="loading-bar" class="pure"></div>
-</div>
+  
 
-    <script>setLoadingBarProgress(20)</script>
-    <header class="l_header pure">
+
+  <header class="l_header pure">
+  <div id="loading-bar-wrapper">
+    <div id="loading-bar" class="pure"></div>
+  </div>
+
 	<div class='wrapper'>
 		<div class="nav-main container container--flex">
-      <a class="logo flat-box" href='/blog-example/' >
+      <a class="logo flat-box" href='/' >
         
-          Hexo
+          Material X
         
       </a>
-			<div class='menu'>
+			<div class='menu navgation'>
 				<ul class='h-list'>
           
   					
   						<li>
-								<a id="blog-example"
-								 class="nav flat-box" href="/blog-example/">
-									<i class='fas fa-home fa-fw'></i>&nbsp;主页
+								<a class="nav flat-box" href="/"
+                  
+                  
+                  id="home">
+									<i class='fas fa-grin fa-fw'></i>&nbsp;示例
 								</a>
 							</li>
       			
   						<li>
-								<a id="blog-examplecategories"
-								 class="nav flat-box" href="/blog-example/categories/">
+								<a class="nav flat-box" href="/blog/categories/"
+                  
+                    rel="nofollow"
+                  
+                  
+                  id="blogcategories">
 									<i class='fas fa-folder-open fa-fw'></i>&nbsp;分类
 								</a>
 							</li>
       			
   						<li>
-								<a id="blog-exampletags"
-								 class="nav flat-box" href="/blog-example/tags/">
+								<a class="nav flat-box" href="/blog/tags/"
+                  
+                    rel="nofollow"
+                  
+                  
+                  id="blogtags">
 									<i class='fas fa-hashtag fa-fw'></i>&nbsp;标签
 								</a>
 							</li>
       			
   						<li>
-								<a id="blog-examplearchives"
-								 class="nav flat-box" href="/blog-example/archives/">
+								<a class="nav flat-box" href="/blog/archives/"
+                  
+                    rel="nofollow"
+                  
+                  
+                  id="blogarchives">
 									<i class='fas fa-archive fa-fw'></i>&nbsp;归档
-								</a>
-							</li>
-      			
-  						<li>
-								<a id="blog-examplefriends"
-								 class="nav flat-box" href="/blog-example/friends/">
-									<i class='fas fa-users fa-fw'></i>&nbsp;朋友
-								</a>
-							</li>
-      			
-  						<li>
-								<a id="blog-exampleabout"
-								 class="nav flat-box" href="/blog-example/about/">
-									<i class='fas fa-user fa-fw'></i>&nbsp;关于
 								</a>
 							</li>
       			
@@ -121,7 +124,7 @@
 				<div class="m_search">
 					<form name="searchform" class="form u-search-form">
 						<input type="text" class="input u-search-input" placeholder="搜索" />
-						<span class="icon"><i class="fas fa-search fa-fw"></i></span>
+						<i class="icon fas fa-search fa-fw"></i>
 					</form>
 				</div>
 			
@@ -137,125 +140,626 @@
 			<a class="logo flat-box"></a>
 			<ul class='switcher h-list'>
 				<li class='s-comment'><a class="flat-btn fas fa-comments fa-fw" href='javascript:void(0)'></a></li>
-				<li class='s-toc'><a class="flat-btn fas fa-list fa-fw" href='javascript:void(0)'></a></li>
+        
+          <li class='s-toc'><a class="flat-btn fas fa-list fa-fw" href='javascript:void(0)'></a></li>
+        
 			</ul>
 		</div>
 	</div>
 </header>
 	<aside class="menu-phone">
     <header>
-		<nav class="menu">
+		<nav class="menu navgation">
       <ul>
+        
           
-              
-                  <li>
-										<a id="blog-example" class="nav flat-box" href="/blog-example/">
-											<i class='fas fa-home fa-fw'></i>&nbsp;主页
-										</a>
-                  </li>
-              
-                  <li>
-										<a id="blog-examplecategories" class="nav flat-box" href="/blog-example/categories/">
-											<i class='fas fa-folder-open fa-fw'></i>&nbsp;分类
-										</a>
-                  </li>
-              
-                  <li>
-										<a id="blog-exampletags" class="nav flat-box" href="/blog-example/tags/">
-											<i class='fas fa-hashtag fa-fw'></i>&nbsp;标签
-										</a>
-                  </li>
-              
-                  <li>
-										<a id="blog-examplearchives" class="nav flat-box" href="/blog-example/archives/">
-											<i class='fas fa-archive fa-fw'></i>&nbsp;归档
-										</a>
-                  </li>
-              
-                  <li>
-										<a id="blog-examplefriends" class="nav flat-box" href="/blog-example/friends/">
-											<i class='fas fa-users fa-fw'></i>&nbsp;朋友
-										</a>
-                  </li>
-              
-                  <li>
-										<a id="blog-exampleabout" class="nav flat-box" href="/blog-example/about/">
-											<i class='fas fa-user fa-fw'></i>&nbsp;关于
-										</a>
-                  </li>
-              
+            <li>
+							<a class="nav flat-box" href="/"
+                
+                
+                id="home">
+								<i class='fas fa-clock fa-fw'></i>&nbsp;近期文章
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/blog/archives/"
+                
+                  rel="nofollow"
+                
+                
+                id="blogarchives">
+								<i class='fas fa-archive fa-fw'></i>&nbsp;文章归档
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/projects/"
+                
+                
+                id="projects">
+								<i class='fas fa-code-branch fa-fw'></i>&nbsp;开源项目
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/friends/"
+                
+                  rel="nofollow"
+                
+                
+                id="friends">
+								<i class='fas fa-link fa-fw'></i>&nbsp;我的友链
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="https://xaoxuu.com/wiki/material-x/"
+                
+                  rel="nofollow"
+                
+                
+                id="https:xaoxuu.comwikimaterial-x">
+								<i class='fas fa-book fa-fw'></i>&nbsp;主题文档
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/about/"
+                
+                  rel="nofollow"
+                
+                
+                id="about">
+								<i class='fas fa-info-circle fa-fw'></i>&nbsp;关于小站
+							</a>
+            </li>
+          
        
       </ul>
 		</nav>
     </header>
 	</aside>
-
-    <script>setLoadingBarProgress(40);</script>
-    <div class="l_body">
-    <div class='container clearfix'>
-        <div class='l_main'>
-            
+<script>setLoadingBarProgress(40);</script>
 
 
 
+  <div class="l_body">
+    <div class='body-wrapper'>
+      <div class='l_main'>
+  
   <section class="post-list">
+    
+    
       
+        
+          <div class='post-wrapper'>
+            <article class="post reveal ">
+  
 
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
+    <a href="https://xaoxuu.com/wiki/material-x//">
+      Material X
+    </a>
+  </h2>
 
 
       
-
-      
-
-      
+      <div class='new-meta-box'>
         
           
-            <div class='post-wrapper'>
-              <article class="post reveal ">
-    
-<section class='meta'>
-  
-  
-  <div class="meta" id="header-meta">
-    
-      <h2 class="title">
-          <a href="/blog-example/gallery-post/">
-              
-                  Gallery Post
-              
-          </a>
-      </h2>
-    
-
-    <div class='new-meta-box'>
-      
-        <div class='new-meta-item author'>
-          <a href="http://mxclub.github.io/blog-example">
-            <i class="fas fa-user" aria-hidden="true"></i>
-            John Doe
-          </a>
-        </div>
-      
-      
-        <div class="new-meta-item date">
-          <a class='notlink'>
-            <i class="fas fa-clock" aria-hidden="true"></i>
-            2013-12-25 星期三
-          </a>
-        </div>
-      
-      
         
+          
+            
+  <div class='new-meta-item author'>
+    <a href="https://xaoxuu.com" rel="nofollow">
       
+        <img src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png">
       
+      <p>xaoxuu</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2017-10-24</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  
+  <div class='new-meta-item category'>
+    <a href='/blog/categories/Dev/Hexo/' rel="nofollow">
+      <i class="fas fa-folder-open" aria-hidden="true"></i>
+      <p>Dev&nbsp;/&nbsp;Hexo</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
       
     </div>
-    <hr>
-  </div>
-</section>
+  </section>
 
-    <section class="article typo">
-        <p>This post contains 4 photos:</p>
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p><strong>一个简约的卡片式Hexo博客主题。</strong></p>
+<fancybox><br><img src="https://img.vim-cn.com/52/a54815c02ce232f11f54b2c547c1337828833c.png" alt=""><br></fancybox>
+      
+        <div class="readmore">
+          <a href="https://xaoxuu.com/wiki/material-x//" class="flat-box">
+            <i class="fas fa-book-open fa-fw" aria-hidden="true"></i>
+            阅读全文
+          </a>
+        </div>
+      
+    </div>
+    
+      <div class="full-width auto-padding tags">
+        
+          <a href="/blog/tags/Hexo/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>Hexo</a>
+        
+      </div>
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            <article class="post reveal ">
+  
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
+    <a href="/test/images/">
+      Images
+    </a>
+  </h2>
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+  <div class='new-meta-item author'>
+    <a href="http://mxclub.github.io" rel="nofollow">
+      
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>Mr.X</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2013-12-26</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>This is a image test post.</p>
+<p><img src="/assets/wallpaper-2572384.jpg" alt=""></p>
+<p><img src="/assets/wallpaper-2311325.jpg" alt="Caption"></p>
+<p><img src="/assets/wallpaper-878514.jpg" alt=""></p>
+<p><img src="http://placehold.it/350x150.jpg" alt="Small Picture"></p>
+
+      
+    </div>
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            <article class="post reveal no-title">
+  
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
+    <a href="/test/no-title/">
+      2013-12-25
+    </a>
+  </h2>
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+  <div class='new-meta-item author'>
+    <a href="http://mxclub.github.io" rel="nofollow">
+      
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>Mr.X</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2013-12-25</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>This post doesn’t have a title. Make sure it’s accessible.</p>
+
+      
+    </div>
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            <article class="post reveal ">
+  
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
+    <a href="/test/excerpts/">
+      Excerpts
+    </a>
+  </h2>
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+  <div class='new-meta-item author'>
+    <a href="http://mxclub.github.io" rel="nofollow">
+      
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>Mr.X</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2013-12-25</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>The following contents should be invisible in home/archive page.</p>
+      
+        <div class="readmore">
+          <a href="/test/excerpts/" class="flat-box">
+            <i class="fas fa-book-open fa-fw" aria-hidden="true"></i>
+            阅读全文
+          </a>
+        </div>
+      
+    </div>
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            <article class="post reveal ">
+  
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
+    <a href="/test/videos/">
+      Videos
+    </a>
+  </h2>
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+  <div class='new-meta-item author'>
+    <a href="http://mxclub.github.io" rel="nofollow">
+      
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>Mr.X</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2013-12-25</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>This is a video test post.</p>
+<p><strong>Youtube</strong></p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/TIbZDRXM-Tg" frameborder="0" allowfullscreen></iframe></div>
+<p><strong>Vimeo</strong></p>
+<div class="video-container"><iframe src="//player.vimeo.com/video/82090131" frameborder="0" allowfullscreen></iframe></div>
+      
+    </div>
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            <article class="post reveal ">
+  
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
+    <a href="/test/gallery-post/">
+      Gallery Post
+    </a>
+  </h2>
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+  <div class='new-meta-item author'>
+    <a href="http://mxclub.github.io" rel="nofollow">
+      
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>Mr.X</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2013-12-25</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>This post contains 4 photos:</p>
 <ul>
 <li>Widescreen wallpaper</li>
 <li>Portrait photo</li>
@@ -265,182 +769,263 @@
 <p>All photos should be displayed properly.</p>
 <p><em>From <a href="http://wallbase.cc" target="_blank" rel="noopener">Wallbase.cc</a></em></p>
 
-        
-
-        
-    </section>
-</article>
-
-            </div>
-          
-        
-          
-            <div class='post-wrapper'>
-              <article class="post reveal ">
-    
-<section class='meta'>
-  
-  
-  <div class="meta" id="header-meta">
-    
-      <h2 class="title">
-          <a href="/blog-example/tag-plugins/">
-              
-                  Tag Plugins
-              
-          </a>
-      </h2>
-    
-
-    <div class='new-meta-box'>
-      
-        <div class='new-meta-item author'>
-          <a href="http://mxclub.github.io/blog-example">
-            <i class="fas fa-user" aria-hidden="true"></i>
-            John Doe
-          </a>
-        </div>
-      
-      
-        <div class="new-meta-item date">
-          <a class='notlink'>
-            <i class="fas fa-clock" aria-hidden="true"></i>
-            2013-12-25 星期三
-          </a>
-        </div>
-      
-      
-        
-      
-      
       
     </div>
-    <hr>
-  </div>
-</section>
-
-    <section class="article typo">
-        <p>This post is used for testing tag plugins. See <a href="http://zespia.tw/hexo/docs/tag-plugins.html" target="_blank" rel="noopener">docs</a> for more info.</p>
-        
-            <div class="readmore">
-                <a href="/blog-example/tag-plugins/" class="flat-box">
-                    <i class="fas fa-book-open fa-fw" aria-hidden="true"></i>
-                    阅读全文
-                </a>
-            </div>
-        
-
-        
-    </section>
+    
+  </section>
 </article>
 
-            </div>
-          
+          </div>
         
-          
-            <div class='post-wrapper'>
-              <article class="post reveal ">
-    
-<section class='meta'>
+      
+        
+          <div class='post-wrapper'>
+            <article class="post reveal ">
   
-  
-  <div class="meta" id="header-meta">
-    
-      <h2 class="title">
-          <a href="/blog-example/link-post-without-title/">
-              
-                  www.google.com
-              
-          </a>
-      </h2>
-    
 
-    <div class='new-meta-box'>
-      
-        <div class='new-meta-item author'>
-          <a href="http://mxclub.github.io/blog-example">
-            <i class="fas fa-user" aria-hidden="true"></i>
-            John Doe
-          </a>
-        </div>
-      
-      
-        <div class="new-meta-item date">
-          <a class='notlink'>
-            <i class="fas fa-clock" aria-hidden="true"></i>
-            2013-12-24 星期二
-          </a>
-        </div>
-      
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
       
         
+  <h2 class="title">
+    <a href="/test/tag-plugins/">
+      Tag Plugins
+    </a>
+  </h2>
+
+
       
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+  <div class='new-meta-item author'>
+    <a href="http://mxclub.github.io" rel="nofollow">
       
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>Mr.X</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2013-12-25</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
       
     </div>
-    <hr>
-  </div>
-</section>
+  </section>
 
-    <section class="article typo">
-        <p>This is a link post without a title. The title should be the link with or without protocol. Clicking on the link should open <a href="http://www.google.com/" target="_blank" rel="noopener">Google</a> in a new tab or window.</p>
 
-        
-
-        
-    </section>
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>This post is used for testing tag plugins. See <a href="http://zespia.tw/hexo/docs/tag-plugins.html" target="_blank" rel="noopener">docs</a> for more info.</p>
+      
+        <div class="readmore">
+          <a href="/test/tag-plugins/" class="flat-box">
+            <i class="fas fa-book-open fa-fw" aria-hidden="true"></i>
+            阅读全文
+          </a>
+        </div>
+      
+    </div>
+    
+  </section>
 </article>
 
-            </div>
-          
+          </div>
         
-          
-            <div class='post-wrapper'>
-              <article class="post reveal ">
-    
-<section class='meta'>
+      
+        
+          <div class='post-wrapper'>
+            <article class="post reveal ">
   
-  
-  <div class="meta" id="header-meta">
-    
-      <h2 class="title">
-          <a href="/blog-example/日本語テスト/">
-              
-                  日本語テスト
-              
-          </a>
-      </h2>
-    
 
-    <div class='new-meta-box'>
-      
-        <div class='new-meta-item author'>
-          <a href="http://mxclub.github.io/blog-example">
-            <i class="fas fa-user" aria-hidden="true"></i>
-            John Doe
-          </a>
-        </div>
-      
-      
-        <div class="new-meta-item date">
-          <a class='notlink'>
-            <i class="fas fa-clock" aria-hidden="true"></i>
-            2013-12-24 星期二
-          </a>
-        </div>
-      
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
       
         
+  <h2 class="title">
+    <a href="/test/link-post-without-title/">
+      www.google.com
+    </a>
+  </h2>
+
+
       
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+  <div class='new-meta-item author'>
+    <a href="http://mxclub.github.io" rel="nofollow">
       
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>Mr.X</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2013-12-24</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
       
     </div>
-    <hr>
-  </div>
-</section>
+  </section>
 
-    <section class="article typo">
-        <p>This is a Japanese test post.</p>
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>This is a link post without a title. The title should be the link with or without protocol. Clicking on the link should open <a href="http://www.google.com/" target="_blank" rel="noopener">Google</a> in a new tab or window.</p>
+
+      
+    </div>
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            <article class="post reveal ">
+  
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
+    <a href="/test/日本語テスト/">
+      日本語テスト
+    </a>
+  </h2>
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+  <div class='new-meta-item author'>
+    <a href="http://mxclub.github.io" rel="nofollow">
+      
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>Mr.X</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2013-12-24</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>This is a Japanese test post.</p>
 <p>私は昨日ついにその助力家というのの上よりするたなけれ。</p>
 <p>最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。</p>
 <p>がたを知っないはずも同時に九月をいよいよたありた。</p>
@@ -451,62 +1036,89 @@
 <p>この中道具の日その学校はあなたごろがすまなりかとネルソンさんの考えるですん、辺の事実ないというご盲従ありたですと、爺さんのためが薬缶が結果までの箸の当時してならて、多少の十月にためからそういう上からとにかくしましないと触れべきものたで、ないうですと多少お人達したのでたた。</p>
 <p><em>From <a href="http://lipsum.sugutsukaeru.jp/index.cgi" target="_blank" rel="noopener">すぐ使えるダミーテキスト - 日本語 Lorem ipsum</a></em></p>
 
-        
-
-        
-    </section>
-</article>
-
-            </div>
-          
-        
-          
-            <div class='post-wrapper'>
-              <article class="post reveal ">
-    
-<section class='meta'>
-  
-  
-  <div class="meta" id="header-meta">
-    
-      <h2 class="title">
-          <a href="/blog-example/中文測試/">
-              
-                  中文測試
-              
-          </a>
-      </h2>
-    
-
-    <div class='new-meta-box'>
-      
-        <div class='new-meta-item author'>
-          <a href="http://mxclub.github.io/blog-example">
-            <i class="fas fa-user" aria-hidden="true"></i>
-            John Doe
-          </a>
-        </div>
-      
-      
-        <div class="new-meta-item date">
-          <a class='notlink'>
-            <i class="fas fa-clock" aria-hidden="true"></i>
-            2013-12-24 星期二
-          </a>
-        </div>
-      
-      
-        
-      
-      
       
     </div>
-    <hr>
-  </div>
-</section>
+    
+  </section>
+</article>
 
-    <section class="article typo">
-        <p>This is a Chinese test post.</p>
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            <article class="post reveal ">
+  
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
+    <a href="/test/中文測試/">
+      中文測試
+    </a>
+  </h2>
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+  <div class='new-meta-item author'>
+    <a href="http://mxclub.github.io" rel="nofollow">
+      
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>Mr.X</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2013-12-24</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>This is a Chinese test post.</p>
 <p>善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。</p>
 <p>以也座論頭室業放。要車時地變此親不老高小是統習直麼調未，行年香一？</p>
 <p>就竟在，是我童示讓利分和異種百路關母信過明驗有個歷洋中前合著區亮風值新底車有正結，進快保的行戰從：弟除文辦條國備當來際年每小腳識世可的的外的廣下歌洲保輪市果底天影；全氣具些回童但倒影發狀在示，數上學大法很，如要我……月品大供這起服滿老？應學傳者國：山式排只不之然清同關；細車是！停屋常間又，資畫領生，相們制在？公別的人寫教資夠。資再我我！只臉夫藝量不路政吃息緊回力之；兒足灣電空時局我怎初安。意今一子區首者微陸現際安除發連由子由而走學體區園我車當會，經時取頭，嚴了新科同？很夫營動通打，出和導一樂，查旅他。坐是收外子發物北看蘭戰坐車身做可來。道就學務。</p>
@@ -516,370 +1128,100 @@
 </blockquote>
 <p><em>From <a href="http://www.richyli.com/tool/loremipsum/" target="_blank" rel="noopener">亂數假文產生器 - Chinese Lorem Ipsum</a></em></p>
 
-        
-
-        
-    </section>
-</article>
-
-            </div>
-          
-        
-          
-            <div class='post-wrapper'>
-              <article class="post reveal ">
-    
-<section class='meta'>
-  
-  
-  <div class="meta" id="header-meta">
-    
-      <h2 class="title">
-          <a href="/blog-example/long-title/">
-              
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.
-              
-          </a>
-      </h2>
-    
-
-    <div class='new-meta-box'>
-      
-        <div class='new-meta-item author'>
-          <a href="http://mxclub.github.io/blog-example">
-            <i class="fas fa-user" aria-hidden="true"></i>
-            John Doe
-          </a>
-        </div>
-      
-      
-        <div class="new-meta-item date">
-          <a class='notlink'>
-            <i class="fas fa-clock" aria-hidden="true"></i>
-            2013-12-24 星期二
-          </a>
-        </div>
-      
-      
-        
-      
-      
       
     </div>
-    <hr>
-  </div>
-</section>
-
-    <section class="article typo">
-        <p>This post has a long title. Make sure the title displayed right.</p>
-
-        
-
-        
-    </section>
-</article>
-
-            </div>
-          
-        
-          
-            <div class='post-wrapper'>
-              <article class="post reveal ">
     
-<section class='meta'>
-  
-  
-  <div class="meta" id="header-meta">
-    
-      <h2 class="title">
-          <a href="/blog-example/link-post/">
-              
-                  Link Post
-              
-          </a>
-      </h2>
-    
-
-    <div class='new-meta-box'>
-      
-        <div class='new-meta-item author'>
-          <a href="http://mxclub.github.io/blog-example">
-            <i class="fas fa-user" aria-hidden="true"></i>
-            John Doe
-          </a>
-        </div>
-      
-      
-        <div class="new-meta-item date">
-          <a class='notlink'>
-            <i class="fas fa-clock" aria-hidden="true"></i>
-            2013-12-24 星期二
-          </a>
-        </div>
-      
-      
-        
-      
-      
-      
-    </div>
-    <hr>
-  </div>
-</section>
-
-    <section class="article typo">
-        <p>This is a link post. Clicking on the link should open <a href="http://www.google.com/" target="_blank" rel="noopener">Google</a> in a new tab or window.</p>
-
-        
-
-        
-    </section>
-</article>
-
-            </div>
-          
-        
-          
-            <div class='post-wrapper'>
-              <article class="post reveal ">
-    
-<section class='meta'>
-  
-  
-  <div class="meta" id="header-meta">
-    
-      <h2 class="title">
-          <a href="/blog-example/elements/">
-              
-                  Elements
-              
-          </a>
-      </h2>
-    
-
-    <div class='new-meta-box'>
-      
-        <div class='new-meta-item author'>
-          <a href="http://mxclub.github.io/blog-example">
-            <i class="fas fa-user" aria-hidden="true"></i>
-            John Doe
-          </a>
-        </div>
-      
-      
-        <div class="new-meta-item date">
-          <a class='notlink'>
-            <i class="fas fa-clock" aria-hidden="true"></i>
-            2013-12-24 星期二
-          </a>
-        </div>
-      
-      
-        
-      
-      
-      
-    </div>
-    <hr>
-  </div>
-</section>
-
-    <section class="article typo">
-        <p>The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don’t forget to redefine the style by yourself.</p>
-<hr>
-<h1 id="Heading-1"><a href="#Heading-1" class="headerlink" title="Heading 1"></a>Heading 1</h1><h2 id="Heading-2"><a href="#Heading-2" class="headerlink" title="Heading 2"></a>Heading 2</h2><h3 id="Heading-3"><a href="#Heading-3" class="headerlink" title="Heading 3"></a>Heading 3</h3><h4 id="Heading-4"><a href="#Heading-4" class="headerlink" title="Heading 4"></a>Heading 4</h4><h5 id="Heading-5"><a href="#Heading-5" class="headerlink" title="Heading 5"></a>Heading 5</h5><h6 id="Heading-6"><a href="#Heading-6" class="headerlink" title="Heading 6"></a>Heading 6</h6><hr>
-<h2 id="Paragraph"><a href="#Paragraph" class="headerlink" title="Paragraph"></a>Paragraph</h2><p>Lorem ipsum dolor sit amet, <a href="">test link</a> consectetur adipiscing elit. <strong>Strong text</strong> pellentesque ligula commodo viverra vehicula. <em>Italic text</em> at ullamcorper enim. Morbi a euismod nibh. <u>Underline text</u> non elit nisl. <del>Deleted text</del> tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.</p>
-<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. <code>Sed erat diam</code>, blandit eget felis aliquam, rhoncus varius urna. Donec tellus sapien, sodales eget ante vitae, feugiat ullamcorper urna. Praesent auctor dui vitae dapibus eleifend. Proin viverra mollis neque, ut ullamcorper elit posuere eget.</p>
-<blockquote>
-<p>Praesent diam elit, interdum ut pulvinar placerat, imperdiet at magna.</p>
-</blockquote>
-<p>Maecenas ornare arcu at mi suscipit, non molestie tortor ultrices. Aenean convallis, diam et congue ultricies, erat magna tincidunt orci, pulvinar posuere mi sapien ac magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vitae placerat mauris. Nullam laoreet ante posuere tortor blandit auctor. Sed id ligula volutpat leo consequat placerat. Mauris fermentum dolor sed augue malesuada sollicitudin. Vivamus ultrices nunc felis, quis viverra orci eleifend ut. Donec et quam id urna cursus posuere. Donec elementum scelerisque laoreet.</p>
-<h2 id="List-Types"><a href="#List-Types" class="headerlink" title="List Types"></a>List Types</h2><h3 id="Definition-List-dl"><a href="#Definition-List-dl" class="headerlink" title="Definition List (dl)"></a>Definition List (dl)</h3><dl><dt>Definition List Title</dt><dd>This is a definition list division.</dd></dl>
-
-<h3 id="Ordered-List-ol"><a href="#Ordered-List-ol" class="headerlink" title="Ordered List (ol)"></a>Ordered List (ol)</h3><ol>
-<li>List Item 1</li>
-<li>List Item 2</li>
-<li>List Item 3</li>
-</ol>
-<h3 id="Unordered-List-ul"><a href="#Unordered-List-ul" class="headerlink" title="Unordered List (ul)"></a>Unordered List (ul)</h3><ul>
-<li>List Item 1</li>
-<li>List Item 2</li>
-<li>List Item 3</li>
-</ul>
-<h2 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h2><table>
-<thead>
-<tr>
-<th>Table Header 1</th>
-<th>Table Header 2</th>
-<th>Table Header 3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
-</tr>
-<tr>
-<td>Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
-</tr>
-<tr>
-<td>Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
-</tr>
-</tbody>
-</table>
-<h2 id="Misc-Stuff-abbr-acronym-sub-sup-etc"><a href="#Misc-Stuff-abbr-acronym-sub-sup-etc" class="headerlink" title="Misc Stuff - abbr, acronym, sub, sup, etc."></a>Misc Stuff - abbr, acronym, sub, sup, etc.</h2><p>Lorem <sup>superscript</sup> dolor <sub>subscript</sub> amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. <cite>cite</cite>. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. <acronym title="National Basketball Association">NBA</acronym> Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  <abbr title="Avenue">AVE</abbr></p>
-
-        
-
-        
-    </section>
-</article>
-
-            </div>
-          
-        
-          
-            <div class='post-wrapper'>
-              <article class="post reveal ">
-    
-<section class='meta'>
-  
-  
-  <div class="meta" id="header-meta">
-    
-      <h2 class="title">
-          <a href="/blog-example/hello-world/">
-              
-                  Hello World
-              
-          </a>
-      </h2>
-    
-
-    <div class='new-meta-box'>
-      
-        <div class='new-meta-item author'>
-          <a href="http://mxclub.github.io/blog-example">
-            <i class="fas fa-user" aria-hidden="true"></i>
-            John Doe
-          </a>
-        </div>
-      
-      
-        <div class="new-meta-item date">
-          <a class='notlink'>
-            <i class="fas fa-clock" aria-hidden="true"></i>
-            2013-12-24 星期二
-          </a>
-        </div>
-      
-      
-        
-      
-      
-      
-    </div>
-    <hr>
-  </div>
-</section>
-
-    <section class="article typo">
-        <p>Welcome to <a href="http://zespia.tw/hexo" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs" target="_blank" rel="noopener">documentation</a> to learn how to use.</p>
-
-        
-
-        
-    </section>
-</article>
-
-            </div>
-          
-        
-      
-
   </section>
-
-
-
-
-
-
-  
-      <br>
-      <div class="prev-next">
-          <div class="prev-next">
-              
-                  <a class="prev" rel="prev" href="/blog-example/">
-                      <section class="post prev" >
-                          <i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;上一页&nbsp;
-                      </section>
-                  </a>
-              
-              <p class="current">
-                  2 / 2
-              </p>
-              
+</article>
 
           </div>
-      </div>
-
-  
-
-  <!-- 根据主题中的设置决定是否在archive中针对摘要部分的MathJax公式加载mathjax.js文件 -->
-  
-
-  
-
-
-
-
-        </div>
-        <aside class='l_side'>
-            
-  
+        
+      
+    
+  </section>
   
     
+      <br>
+      <div class="prev-next">
+        <div class="prev-next">
+          
+            <a class="prev" rel="prev" href="/">
+              <section class="post prev" >
+                <i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;上一页&nbsp;
+              </section>
+            </a>
+          
+          <p class="current">
+            2 / 3
+          </p>
+          
+            <a class="next" rel="next" href="/page/3/">
+              <section class="post next">
+                &nbsp;下一页&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i>
+              </section>
+            </a>
+          
+        </div>
+      </div>
+
+    
+    <!-- 根据主题中的设置决定是否在archive中针对摘要部分的MathJax公式加载mathjax.js文件 -->
+    
+    
+
+  
+
+
+</div>
+<aside class='l_side'>
+  
+    
+    
       
-      
-        <section class='author'>
+        
+          
+          
+            <section class='widget author'>
   <div class='content pure'>
     
       <div class='avatar'>
-        <img class='avatar' src='https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/avatar/avatar.png'/>
+        <img class='avatar' src='https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png'/>
       </div>
     
-    
-      <div class='text'>
-        
-        
-        
-          <p><span id="jinrishici-sentence">柳暗花明又一村</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
     
     
       <div class="social-wrapper">
         
           
-            <a href="/blog-example/atom.xml" class="social flat-btn" target="_blank" rel="external"><i class="social fas fa-rss" aria-hidden="true"></i></a>
+            <a href="/atom.xml"
+              class="social fas fa-rss flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
           
         
           
-            <a href="mailto:me@xaoxuu.com" class="social flat-btn" target="_blank" rel="external"><i class="social fas fa-envelope" aria-hidden="true"></i></a>
+            <a href="mailto:me@xaoxuu.com"
+              class="social fas fa-envelope flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
           
         
           
-            <a href="https://github.com/xaoxuu" class="social flat-btn" target="_blank" rel="external"><i class="social fab fa-github" aria-hidden="true"></i></a>
+            <a href="https://github.com/xaoxuu"
+              class="social fab fa-github flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
           
         
           
-            <a href="https://music.163.com/#/user/home?id=63035382" class="social flat-btn" target="_blank" rel="external"><i class="social fas fa-headphones-alt" aria-hidden="true"></i></a>
+            <a href="https://music.163.com/#/user/home?id=63035382"
+              class="social fas fa-headphones-alt flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+            </a>
           
         
       </div>
@@ -887,240 +1229,261 @@
   </div>
 </section>
 
+          
+        
       
-    
-  
-    
+        
+          
+          
+            
+
+          
+        
       
-      
-        <section class='plain'>
+        
+          
+          
+            <section class='widget grid'>
   
 <header class='pure'>
-  <div><i class="fas fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;注意啦～</div>
-  
-    <a class="rightBtn" target="_blank"
-    rel="external nofollow noopener noreferrer"
-    href="https://xaoxuu.com/wiki/material-x/"
-    title="https://xaoxuu.com/wiki/material-x/">
-    <i class="fas fa-question-circle fa-fw"></i></a>
+  <div><i class="fas fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;站内导航</div>
   
 </header>
 
   <div class='content pure'>
-    <p>本站使用 <a href="https://xaoxuu.com/wiki/material-x/">Material X</a> 作为主题，喜欢这个主题的朋友可以阅读文档进行安装哦，超喜欢的话还可以安利给身边的朋友哦～</p>
-
+    <ul class="grid navgation">
+      
+        <li><a class="flat-box" title="/" href="/"
+          
+          
+          id="home">
+          
+            <i class="fas fa-clock fa-fw" aria-hidden="true"></i>
+          
+          近期文章
+        </a></li>
+      
+        <li><a class="flat-box" title="/blog/archives/" href="/blog/archives/"
+          
+            rel="nofollow"
+          
+          
+          id="blogarchives">
+          
+            <i class="fas fa-archive fa-fw" aria-hidden="true"></i>
+          
+          文章归档
+        </a></li>
+      
+        <li><a class="flat-box" title="/projects/" href="/projects/"
+          
+          
+          id="projects">
+          
+            <i class="fas fa-code-branch fa-fw" aria-hidden="true"></i>
+          
+          开源项目
+        </a></li>
+      
+        <li><a class="flat-box" title="/friends/" href="/friends/"
+          
+            rel="nofollow"
+          
+          
+          id="friends">
+          
+            <i class="fas fa-link fa-fw" aria-hidden="true"></i>
+          
+          我的友链
+        </a></li>
+      
+        <li><a class="flat-box" title="https://xaoxuu.com/wiki/material-x/" href="https://xaoxuu.com/wiki/material-x/"
+          
+            rel="nofollow"
+          
+          
+          id="https:xaoxuu.comwikimaterial-x">
+          
+            <i class="fas fa-book fa-fw" aria-hidden="true"></i>
+          
+          主题文档
+        </a></li>
+      
+        <li><a class="flat-box" title="/about/" href="/about/"
+          
+            rel="nofollow"
+          
+          
+          id="about">
+          
+            <i class="fas fa-info-circle fa-fw" aria-hidden="true"></i>
+          
+          关于小站
+        </a></li>
+      
+    </ul>
   </div>
 </section>
 
-      
-    
-  
-    
-      
+          
+        
       
         
-  <section class='category'>
+          
+          
+            
+  <section class='widget category'>
     
 <header class='pure'>
-  <div><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;所有分类</div>
+  <div><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;文章分类</div>
+  
+    <a class="rightBtn"
+    
+      rel="nofollow"
+    
+    
+    href="/blog/categories/"
+    title="blog/categories/">
+    <i class="fas fa-expand-arrows-alt fa-fw"></i></a>
   
 </header>
 
     <div class='content pure'>
       <ul class="entry">
         
-          <li><a class="flat-box" title="/blog-example/categories/教程/" href="/blog-example/categories/教程/"><div class='name'>教程</div><div class='badge'>(6)</div></a></li>
+          <li><a class="flat-box" title="/blog/categories/Dev/" href="/blog/categories/Dev/"><div class='name'>Dev</div><div class='badge'>(3)</div></a></li>
+        
+          <li><a class="flat-box child" title="/blog/categories/Dev/Hexo/" href="/blog/categories/Dev/Hexo/"><div class='name'>Hexo</div><div class='badge'>(2)</div></a></li>
+        
+          <li><a class="flat-box child" title="/blog/categories/Dev/Shell-Scripts/" href="/blog/categories/Dev/Shell-Scripts/"><div class='name'>Shell Scripts</div><div class='badge'>(1)</div></a></li>
+        
+          <li><a class="flat-box" title="/blog/categories/教程/" href="/blog/categories/教程/"><div class='name'>教程</div><div class='badge'>(8)</div></a></li>
         
       </ul>
     </div>
   </section>
 
 
-      
-    
-  
-    
-      
+          
+        
       
         
-  <section class='tagcloud'>
+          
+          
+            
+  <section class='widget tagcloud'>
     
 <header class='pure'>
-  <div><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;热门标签</div>
+  <div><i class="fas fa-fire fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;热门标签</div>
+  
+    <a class="rightBtn"
+    
+      rel="nofollow"
+    
+    
+    href="/blog/tags/"
+    title="blog/tags/">
+    <i class="fas fa-expand-arrows-alt fa-fw"></i></a>
   
 </header>
 
     <div class='content pure'>
-      <a href="/blog-example/tags/ss/" style="font-size: 14px; color: #999">ss</a>
+      <a href="/blog/tags/Hexo/" style="font-size: 24px; color: #555">Hexo</a> <a href="/blog/tags/shell/" style="font-size: 24px; color: #555">shell</a> <a href="/blog/tags/ss/" style="font-size: 14px; color: #999">ss</a>
     </div>
   </section>
 
 
+          
+        
       
+        
+          
+          
+            
+
+
+  <section class='widget music'>
     
-  
-    
-      
-      
-        <section class='list'>
-  
 <header class='pure'>
-  <div><i class="fas fa-medal fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;精选项目</div>
+  <div><i class="fas fa-compact-disc fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;最近在听</div>
   
-    <a class="rightBtn" target="_blank"
-    rel="external nofollow noopener noreferrer"
-    href="https://xaoxuu.com/projects/"
-    title="https://xaoxuu.com/projects/">
-    <i class="fas fa-arrow-right fa-fw"></i></a>
+    <a class="rightBtn"
+    
+      rel="external nofollow noopener noreferrer"
+    
+    
+      target="_blank"
+    
+    href="https://music.163.com/#/user/home?id=63035382"
+    title="https://music.163.com/#/user/home?id=63035382">
+    <i class="far fa-heart fa-fw"></i></a>
   
 </header>
 
-  <div class='content pure'>
-    <ul class="entry">
+    <div class='content pure'>
       
-        <li><a class="flat-box" title="https://xaoxuu.com/heartmate/" href="https://xaoxuu.com/heartmate/">
-          <div class='name'>
-            
-              <i class="fas fa-heartbeat fa-fw" aria-hidden="true"></i>
-            
-            &nbsp;&nbsp;HeartMate
-          </div>
-          
-            <div class='badge'>(iOS应用程序)</div>
-          
-        </a></li>
-      
-        <li><a class="flat-box" title="https://xaoxuu.com/wiki/material-x/" href="https://xaoxuu.com/wiki/material-x/">
-          <div class='name'>
-            
-              <img src="https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/%E7%9C%9F%E6%A3%92.png">
-            
-            &nbsp;&nbsp;Material X
-          </div>
-          
-            <div class='badge'>(Hexo博客主题)</div>
-          
-        </a></li>
-      
-    </ul>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.css">
+  <div class="aplayer"
+    data-theme="#1BCDFC"
+    
+    
+    data-mode="circulation"
+    data-server="netease"
+    data-type="playlist"
+    data-id="2615636388"
+    data-volume="0.7">
   </div>
-</section>
-
-      
-    
-  
-    
-      
-      
-        <section class='list'>
-  
-<header class='pure'>
-  <div><i class="fas fa-link fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;特别链接</div>
-  
-</header>
-
-  <div class='content pure'>
-    <ul class="entry">
-      
-        <li><a class="flat-box" title="https://xaoxuu.com/about/" href="https://xaoxuu.com/about/">
-          <div class='name'>
-            
-              <i class="fas fa-comment-dots fa-fw" aria-hidden="true"></i>
-            
-            &nbsp;&nbsp;关于我 / 留言板
-          </div>
-          
-        </a></li>
-      
-    </ul>
-  </div>
-</section>
-
-      
-    
-  
-    
-      
-      
-        
-
-      
-    
-  
-    
-      
-      
-        
+  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js"></script>
 
 
-
-      
-    
-  
-    
-      
-      
-        <section class='list'>
-  
-<header class='pure'>
-  <div><i class="fas fa-users fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;友链</div>
-  
-</header>
-
-  <div class='content pure'>
-    <ul class="entry">
-      
-        <li><a class="flat-box" title="https://xaoxuu.com" href="https://xaoxuu.com">
-          <div class='name'>
-            
-              <img src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/avatar/avatar.png" id="round">
-            
-            &nbsp;&nbsp;xaoxuu's blog
-          </div>
-          
-        </a></li>
-      
-    </ul>
-  </div>
-</section>
-
-      
-    
-  
-    
-      
-      
-        
-
-      
-    
-  
-
-
-        </aside>
-        <script>setLoadingBarProgress(60);</script>
     </div>
-    <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
-    </div>
-    <footer id="footer" class="clearfix">
+  </section>
+
+
+          
+        
+      
+    
+
+  
+</aside>
+
+<footer id="footer" class="clearfix">
   
   
     <div class="social-wrapper">
       
         
-          <a href="/blog-example/atom.xml" class="social fas fa-rss flat-btn" target="_blank" rel="external"></a>
+          <a href="/atom.xml"
+            class="social fas fa-rss flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
         
       
         
-          <a href="mailto:me@xaoxuu.com" class="social fas fa-envelope flat-btn" target="_blank" rel="external"></a>
+          <a href="mailto:me@xaoxuu.com"
+            class="social fas fa-envelope flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
         
       
         
-          <a href="https://github.com/xaoxuu" class="social fab fa-github flat-btn" target="_blank" rel="external"></a>
+          <a href="https://github.com/xaoxuu"
+            class="social fab fa-github flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
         
       
         
-          <a href="https://music.163.com/#/user/home?id=63035382" class="social fas fa-headphones-alt flat-btn" target="_blank" rel="external"></a>
+          <a href="https://music.163.com/#/user/home?id=63035382"
+            class="social fas fa-headphones-alt flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
         
       
     </div>
@@ -1128,12 +1491,27 @@
   <br>
   <div><p>博客内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
 </div>
-  <div>本站使用 <a href="https://xaoxuu.com/wiki/material-x/" target="_blank" class="codename">Material X</a> 作为主题，总访问量为 <span id="busuanzi_value_site_pv"><i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span> 次。
+  <div>
+    本站使用
+    <a href="https://xaoxuu.com/wiki/material-x/" target="_blank" class="codename">Material X</a>
+    作为主题
+    
+      ，
+      总访问量为
+      <span id="busuanzi_value_site_pv"><i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span>
+      次
+    
+    。
   </div>
 </footer>
+<script>setLoadingBarProgress(80);</script>
 
-    <script>setLoadingBarProgress(80);</script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+
+      <script>setLoadingBarProgress(60);</script>
+    </div>
+    <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
 
   <script>
     var GOOGLE_CUSTOM_SEARCH_API_KEY = "";
@@ -1146,87 +1524,197 @@
     var AZURE_QUERY_KEY = "";
     var BAIDU_API_ID = "";
     var SEARCH_SERVICE = "hexo" || "hexo";
-    var ROOT = "/blog-example/"||"/";
+    var ROOT = "/"||"/";
     if(!ROOT.endsWith('/'))ROOT += '/';
   </script>
 
 
-  
-    <script async src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
-    <script type="text/javascript">
-      $(function() {
-        const $reveal = $('.reveal');
-    		if ($reveal.length === 0) return;
-    		const sr = ScrollReveal({ distance: 0 });
-    		sr.reveal('.reveal');
-      });
-    </script>
-  
-  
-    <script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
-    <script type="text/javascript">
-      $(function() {
-        Waves.attach('.flat-btn', ['waves-button']);
-        Waves.attach('.float-btn', ['waves-button', 'waves-float']);
-        Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
-        Waves.attach('.flat-box', ['waves-block']);
-        Waves.attach('.float-box', ['waves-block', 'waves-float']);
-        Waves.attach('.waves-image');
-        Waves.init();
-      });
-    </script>
-  
-  
-    <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js"></script>
-  
-  
-  
 
-  
-  
-  
-  
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    
-      
-        <script src="https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1/js/volantis.min.js"></script>
-      
-    
-    <script>
-    var GUEST_INFO = ['nick','mail','link'];
-    var guest_info = 'nick,mail,link'.split(',').filter(function(item){
-      return GUEST_INFO.indexOf(item) > -1
+  <script async src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      const $reveal = $('.reveal');
+      if ($reveal.length === 0) return;
+      const sr = ScrollReveal({ distance: 0 });
+      sr.reveal('.reveal');
     });
-    var notify = 'false' == true;
-    var verify = 'false' == true;
-    var valine = new Valine();
-    valine.init({
-      el: '#valine_container',
-      notify: notify,
-      verify: verify,
-      guest_info: guest_info,
-      
-      appId: "1rN07DpQRE12WD9Au1SuWCww-gzGzoHsz",
-      appKey: "EAyPrjSfiYnuRDiIpwczBeJ4",
-      placeholder: "快来评论吧~",
-      pageSize:'10',
-      avatar:'mp',
-      lang:'zh-cn',
-      highlight:''
-    })
-    </script>
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      Waves.attach('.flat-btn', ['waves-button']);
+      Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+      Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+      Waves.attach('.flat-box', ['waves-block']);
+      Waves.attach('.float-box', ['waves-block', 'waves-float']);
+      Waves.attach('.waves-image');
+      Waves.init();
+    });
+  </script>
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
   
-
+    
+      <script src="https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1/js/volantis.min.js"></script>
+    
   
-    <script src="/blog-example/js/app.js"></script>
-<script src="/blog-example/js/search.js"></script>
-  
+  <script>
+  var GUEST_INFO = ['nick','mail','link'];
+  var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+    return GUEST_INFO.indexOf(item) > -1
+  });
+  var notify = 'false' == true;
+  var verify = 'false' == true;
+  var valine = new Valine();
+  valine.init({
+    el: '#valine_container',
+    notify: notify,
+    verify: verify,
+    guest_info: guest_info,
+    
+    appId: "1rN07DpQRE12WD9Au1SuWCww-gzGzoHsz",
+    appKey: "EAyPrjSfiYnuRDiIpwczBeJ4",
+    placeholder: "快来评论吧~",
+    pageSize:'10',
+    avatar:'mp',
+    lang:'zh-cn',
+    highlight:'false'
+  })
+  </script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@19.4.18/js/app.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@19.4.18/js/search.js"></script>
+
+
+
+
+<!-- 复制 -->
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  let COPY_SUCCESS = "复制成功";
+  let COPY_FAILURE = "复制失败";
+  /*页面载入完成后，创建复制按钮*/
+  !function (e, t, a) {
+    /* code */
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '  <i class="fa fa-copy"></i><span>复制</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+
+      clipboard.on('success', function(e) {
+        //您可以加入成功提示
+        console.info('Action:', e.action);
+        console.info('Text:', e.text);
+        console.info('Trigger:', e.trigger);
+        success_prompt(COPY_SUCCESS);
+        e.clearSelection();
+      });
+      clipboard.on('error', function(e) {
+        //您可以加入失败提示
+        console.error('Action:', e.action);
+        console.error('Trigger:', e.trigger);
+        fail_prompt(COPY_FAILURE);
+      });
+    }
+    initCopyCode();
+
+  }(window, document);
+
+  /**
+   * 弹出式提示框，默认1.5秒自动消失
+   * @param message 提示信息
+   * @param style 提示样式，有alert-success、alert-danger、alert-warning、alert-info
+   * @param time 消失时间
+   */
+  var prompt = function (message, style, time)
+  {
+      style = (style === undefined) ? 'alert-success' : style;
+      time = (time === undefined) ? 1500 : time*1000;
+      $('<div>')
+          .appendTo('body')
+          .addClass('alert ' + style)
+          .html(message)
+          .show()
+          .delay(time)
+          .fadeOut();
+  };
+
+  // 成功提示
+  var success_prompt = function(message, time)
+  {
+      prompt(message, 'alert-success', time);
+  };
+
+  // 失败提示
+  var fail_prompt = function(message, time)
+  {
+      prompt(message, 'alert-danger', time);
+  };
+
+  // 提醒
+  var warning_prompt = function(message, time)
+  {
+      prompt(message, 'alert-warning', time);
+  };
+
+  // 信息提示
+  var info_prompt = function(message, time)
+  {
+      prompt(message, 'alert-info', time);
+  };
+
+</script>
+
+
+<!-- fancybox -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  let LAZY_LOAD_IMAGE = "";
+  $(".article-entry").find("fancybox").find("img").each(function () {
+      var element = document.createElement("a");
+      $(element).attr("data-fancybox", "gallery");
+      $(element).attr("href", $(this).attr("src"));
+      /* 图片采用懒加载处理时,
+       * 一般图片标签内会有个属性名来存放图片的真实地址，比如 data-original,
+       * 那么此处将原本的属性名src替换为对应属性名data-original,
+       * 修改如下
+       */
+       if (LAZY_LOAD_IMAGE) {
+         $(element).attr("href", $(this).attr("data-original"));
+       }
+      $(this).wrap(element);
+  });
+</script>
 
 
 
 
 
-
-    <script>setLoadingBarProgress(100);</script>
+  <script>setLoadingBarProgress(100);</script>
 </body>
 </html>

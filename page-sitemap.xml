@@ -2,35 +2,49 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://mxclub.github.io/blog-example</loc>
+        <loc>http://mxclub.github.io</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
     
     <url>
-        <loc>http://mxclub.github.io/blog-example/friends/</loc>
+        <loc>http://mxclub.github.io/projects/</loc>
+        <lastmod>2019-04-08T08:37:19.221Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://mxclub.github.io/blog/categories/</loc>
+        <lastmod>2019-04-08T08:37:19.220Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://mxclub.github.io/blog/tags/</loc>
+        <lastmod>2019-04-08T08:37:19.220Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://mxclub.github.io/about/</loc>
+        <lastmod>2019-04-08T08:37:19.219Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://mxclub.github.io/404.html</loc>
+        <lastmod>2019-04-08T08:37:19.205Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://mxclub.github.io/friends/</loc>
         <lastmod>2019-03-05T11:47:45.029Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>http://mxclub.github.io/blog-example/about/</loc>
-        <lastmod>2019-03-05T11:47:45.015Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>http://mxclub.github.io/blog-example/tags/</loc>
-        <lastmod>2019-02-21T12:27:07.996Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>http://mxclub.github.io/blog-example/categories/</loc>
-        <lastmod>2019-02-21T11:56:08.260Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

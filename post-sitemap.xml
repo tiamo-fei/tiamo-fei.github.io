@@ -2,136 +2,112 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://mxclub.github.io/blog-example</loc>
+        <loc>http://mxclub.github.io</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/%E9%9A%90%E8%97%8Fmeta%E4%BF%A1%E6%81%AF/</loc>
-        <lastmod>2019-03-05T11:47:45.015Z</lastmod>
+        <loc>http://mxclub.github.io/test/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/</loc>
+        <lastmod>2019-04-08T08:37:19.218Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/</loc>
-        <lastmod>2019-03-05T11:47:45.014Z</lastmod>
+        <loc>http://mxclub.github.io/test/videos/</loc>
+        <lastmod>2019-04-08T08:37:19.217Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/%E6%91%98%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</loc>
-        <lastmod>2019-03-05T11:47:45.013Z</lastmod>
+        <loc>http://mxclub.github.io/test/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/</loc>
+        <lastmod>2019-04-08T08:37:19.217Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/%E6%96%87%E7%AB%A0%E4%B8%93%E5%B1%9EBGM/</loc>
-        <lastmod>2019-03-05T11:47:45.013Z</lastmod>
+        <loc>http://mxclub.github.io/test/tag-plugins/</loc>
+        <lastmod>2019-04-08T08:37:19.216Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/%E5%85%B1%E7%94%A8%E4%B8%80%E4%B8%AA%E8%AF%84%E8%AE%BA%E6%A1%86/</loc>
-        <lastmod>2019-03-05T11:47:45.012Z</lastmod>
+        <loc>http://mxclub.github.io/test/long-title/</loc>
+        <lastmod>2019-04-08T08:37:19.215Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/%E5%A4%9A%E8%AF%AD%E8%A8%80/</loc>
-        <lastmod>2019-03-05T11:47:45.012Z</lastmod>
+        <loc>http://mxclub.github.io/test/no-title/</loc>
+        <lastmod>2019-04-08T08:37:19.215Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/videos/</loc>
-        <lastmod>2019-03-05T11:47:45.011Z</lastmod>
+        <loc>http://mxclub.github.io/test/link-post/</loc>
+        <lastmod>2019-04-08T08:37:19.214Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/</loc>
-        <lastmod>2019-03-05T11:47:45.011Z</lastmod>
+        <loc>http://mxclub.github.io/test/link-post-without-title/</loc>
+        <lastmod>2019-04-08T08:37:19.213Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/top/</loc>
-        <lastmod>2019-03-05T11:47:45.011Z</lastmod>
+        <loc>http://mxclub.github.io/test/images/</loc>
+        <lastmod>2019-04-08T08:37:19.212Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/no-title/</loc>
-        <lastmod>2019-03-05T11:47:45.010Z</lastmod>
+        <loc>http://mxclub.github.io/test/hello-world/</loc>
+        <lastmod>2019-04-08T08:37:19.211Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/tag-plugins/</loc>
-        <lastmod>2019-03-05T11:47:45.010Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://mxclub.github.io/blog-example/long-title/</loc>
-        <lastmod>2019-03-05T11:47:45.009Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://mxclub.github.io/blog-example/link-post/</loc>
-        <lastmod>2019-03-05T11:47:45.008Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://mxclub.github.io/blog-example/gallery-post/</loc>
-        <lastmod>2019-03-05T11:47:45.007Z</lastmod>
+        <loc>http://mxclub.github.io/test/gallery-post/</loc>
+        <lastmod>2019-04-08T08:37:19.210Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
         <image:image>
 
-            <image:loc>http://mxclub.github.io/blog-example/assets/wallpaper-2572384.jpg</image:loc>
+            <image:loc>http://mxclub.github.io/assets/wallpaper-2572384.jpg</image:loc>
 
         </image:image>
 
         <image:image>
 
-            <image:loc>http://mxclub.github.io/blog-example/assets/wallpaper-2311325.jpg</image:loc>
+            <image:loc>http://mxclub.github.io/assets/wallpaper-2311325.jpg</image:loc>
 
         </image:image>
 
         <image:image>
 
-            <image:loc>http://mxclub.github.io/blog-example/assets/wallpaper-878514.jpg</image:loc>
+            <image:loc>http://mxclub.github.io/assets/wallpaper-878514.jpg</image:loc>
 
         </image:image>
 
@@ -144,40 +120,104 @@
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/hello-world/</loc>
-        <lastmod>2019-03-05T11:47:45.007Z</lastmod>
+        <loc>http://mxclub.github.io/test/elements/</loc>
+        <lastmod>2019-04-08T08:37:19.209Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/images/</loc>
-        <lastmod>2019-03-05T11:47:45.007Z</lastmod>
+        <loc>http://mxclub.github.io/test/excerpts/</loc>
+        <lastmod>2019-04-08T08:37:19.209Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/link-post-without-title/</loc>
-        <lastmod>2019-03-05T11:47:45.007Z</lastmod>
+        <loc>http://mxclub.github.io/example/%E5%BC%95%E7%94%A8%E5%A4%96%E9%83%A8%E6%96%87%E7%AB%A0/</loc>
+        <lastmod>2019-04-08T08:37:19.207Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/elements/</loc>
-        <lastmod>2019-03-05T11:47:45.006Z</lastmod>
+        <loc>http://mxclub.github.io/example/%E6%91%98%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</loc>
+        <lastmod>2019-04-08T08:37:19.207Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/excerpts/</loc>
-        <lastmod>2019-03-05T11:47:45.006Z</lastmod>
+        <loc>http://mxclub.github.io/example/%E6%96%87%E7%AB%A0%E4%B8%93%E5%B1%9EBGM/</loc>
+        <lastmod>2019-04-08T08:37:19.207Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://mxclub.github.io/example/%E8%87%AA%E5%AE%9A%E4%B9%89meta%E4%BF%A1%E6%81%AF/</loc>
+        <lastmod>2019-04-08T08:37:19.207Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://mxclub.github.io/example/top/</loc>
+        <lastmod>2019-04-08T08:37:19.206Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://mxclub.github.io/example/%E5%85%B1%E7%94%A8%E4%B8%80%E4%B8%AA%E8%AF%84%E8%AE%BA%E6%A1%86/</loc>
+        <lastmod>2019-04-08T08:37:19.206Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://mxclub.github.io/example/%E5%A4%9A%E7%94%A8%E6%88%B7/</loc>
+        <lastmod>2019-04-08T08:37:19.206Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://mxclub.github.io/example/%E5%A4%9A%E8%AF%AD%E8%A8%80/</loc>
+        <lastmod>2019-04-08T08:37:19.206Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://mxclub.github.io/https://xaoxuu.com/wiki/material-x/</loc>
+        <lastmod>2019-04-05T16:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://mxclub.github.io/https://xaoxuu.com/wiki/hexo.sh/</loc>
+        <lastmod>2019-04-03T16:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://mxclub.github.io/https://xaoxuu.com/wiki/vim-cn.sh/</loc>
+        <lastmod>2019-01-08T16:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

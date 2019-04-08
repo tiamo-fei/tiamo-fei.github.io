@@ -2,14 +2,35 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://mxclub.github.io/blog-example</loc>
+        <loc>http://mxclub.github.io</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>http://mxclub.github.io/blog-example/categories/%E6%95%99%E7%A8%8B/</loc>
-        <lastmod>2019-03-05T11:47:45.015Z</lastmod>
+        <loc>http://mxclub.github.io/blog/categories/Dev/Shell-Scripts/</loc>
+        <lastmod>2019-01-08T16:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://mxclub.github.io/blog/categories/Dev/</loc>
+        <lastmod>2019-04-05T16:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://mxclub.github.io/blog/categories/Dev/Hexo/</loc>
+        <lastmod>2019-04-05T16:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://mxclub.github.io/blog/categories/%E6%95%99%E7%A8%8B/</loc>
+        <lastmod>2019-04-08T08:37:19.207Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

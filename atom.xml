@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mxclub.github.io/"/>
-  <updated>2019-04-08T08:37:19.206Z</updated>
+  <updated>2019-04-08T08:37:19.207Z</updated>
   <id>http://mxclub.github.io/</id>
   
   <author>
@@ -15,29 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>支持多用户</title>
-    <link href="http://mxclub.github.io/example/%E5%A4%9A%E7%94%A8%E6%88%B7/"/>
-    <id>http://mxclub.github.io/example/多用户/</id>
-    <published>2019-04-05T16:00:00.000Z</published>
-    <updated>2019-04-08T08:37:19.206Z</updated>
-    
-    <content type="html"><![CDATA[<p>在博客根目录中配置的属性是默认作者：<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">author:</span> <span class="string">Mr.X</span></span><br><span class="line"><span class="attr">avatar:</span> <span class="attr">https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png</span></span><br><span class="line"><span class="attr">url:</span> <span class="attr">http://mxclub.github.io</span></span><br></pre></td></tr></table></figure></p><p>在文章的Front-matter中可以配置本篇文章的作者：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">xaoxuu</span></span><br><span class="line"><span class="attr">avatar:</span> <span class="attr">https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png</span></span><br><span class="line"><span class="attr">author_url:</span> <span class="attr">https://xaoxuu.com</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure><p>写法示例：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">blog</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">支持多用户</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">appx.online</span></span><br><span class="line"><span class="attr">author_url:</span> <span class="attr">https://appx.online</span></span><br><span class="line"><span class="attr">avatar:</span> <span class="attr">https://img.vim-cn.com/ae/2e0ffa7c770dbebba64f2f1770c29788a09e24.png</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2019</span><span class="bullet">-04</span><span class="bullet">-06</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">教程</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">/top/</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;在博客根目录中配置的属性是默认作者：&lt;br&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;
-      
-    
-    </summary>
-    
-      <category term="教程" scheme="http://mxclub.github.io/blog/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-  </entry>
   
   <entry>
     <title>引用外部文章</title>
@@ -88,18 +65,20 @@
   </entry>
   
   <entry>
-    <title>置顶</title>
-    <link href="http://mxclub.github.io/example/top/"/>
-    <id>http://mxclub.github.io/example/top/</id>
-    <published>2018-12-29T16:00:00.000Z</published>
+    <title>支持多用户</title>
+    <link href="http://mxclub.github.io/example/%E5%A4%9A%E7%94%A8%E6%88%B7/"/>
+    <id>http://mxclub.github.io/example/多用户/</id>
+    <published>2019-04-05T16:00:00.000Z</published>
     <updated>2019-04-08T08:37:19.206Z</updated>
     
-    <content type="html"><![CDATA[<p>文章的Front-matter填写<code>top: true</code>就置顶了。<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">top:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p><p>这是一个示例博客。源码目录：<a href="https://github.com/xaoxuu/blog-example" target="_blank" rel="noopener">https://github.com/xaoxuu/blog-example</a></p><a id="more"></a><p><img class="emoji tieba" src="https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/捂嘴笑.png">没有更多了哦。</p>]]></content>
+    <content type="html"><![CDATA[<p>在博客根目录中配置的属性是默认作者：<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">author:</span> <span class="string">Mr.X</span></span><br><span class="line"><span class="attr">avatar:</span> <span class="attr">https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png</span></span><br><span class="line"><span class="attr">url:</span> <span class="attr">http://mxclub.github.io</span></span><br></pre></td></tr></table></figure></p><p>在文章的Front-matter中可以配置本篇文章的作者：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">xaoxuu</span></span><br><span class="line"><span class="attr">avatar:</span> <span class="attr">https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png</span></span><br><span class="line"><span class="attr">author_url:</span> <span class="attr">https://xaoxuu.com</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure><p>写法示例：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">blog</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">支持多用户</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">appx.online</span></span><br><span class="line"><span class="attr">author_url:</span> <span class="attr">https://appx.online</span></span><br><span class="line"><span class="attr">avatar:</span> <span class="attr">https://img.vim-cn.com/ae/2e0ffa7c770dbebba64f2f1770c29788a09e24.png</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2019</span><span class="bullet">-04</span><span class="bullet">-06</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">教程</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">/top/</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;文章的Front-matter填写&lt;code&gt;top: true&lt;/code&gt;就置顶了。&lt;br&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;top:&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;这是一个示例博客。源码目录：&lt;a href=&quot;https://github.com/xaoxuu/blog-example&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/xaoxuu/blog-example&lt;/a&gt;&lt;/p&gt;
+      
+      
+        &lt;p&gt;在博客根目录中配置的属性是默认作者：&lt;br&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;
+      
     
     </summary>
     
@@ -109,20 +88,20 @@
   </entry>
   
   <entry>
-    <title>多语言</title>
-    <link href="http://mxclub.github.io/example/%E5%A4%9A%E8%AF%AD%E8%A8%80/"/>
-    <id>http://mxclub.github.io/example/多语言/</id>
+    <title>共用一个评论框</title>
+    <link href="http://mxclub.github.io/example/%E5%85%B1%E7%94%A8%E4%B8%80%E4%B8%AA%E8%AF%84%E8%AE%BA%E6%A1%86/"/>
+    <id>http://mxclub.github.io/example/共用一个评论框/</id>
     <published>2018-12-29T16:00:00.000Z</published>
     <updated>2019-04-08T08:37:19.206Z</updated>
     
-    <content type="html"><![CDATA[<p>在主目录找到或者新增<code>language</code>，例如：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">language:</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-CN</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">en</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-HK</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-TW</span></span><br></pre></td></tr></table></figure><p>博客将按照给定的优先级显示语言。</p>]]></content>
+    <content type="html"><![CDATA[<p>写法示例：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">共用一个评论框</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">/top/</span></span><br><span class="line"><span class="attr">  placeholder:</span> <span class="string">你觉得共用一个评论框有意义吗？</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;在主目录找到或者新增&lt;code&gt;language&lt;/code&gt;，例如：&lt;/p&gt;
-&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;
+        &lt;p&gt;写法示例：&lt;/p&gt;
+&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;
       
     
     </summary>
@@ -180,21 +159,42 @@
   </entry>
   
   <entry>
-    <title>共用一个评论框</title>
-    <link href="http://mxclub.github.io/example/%E5%85%B1%E7%94%A8%E4%B8%80%E4%B8%AA%E8%AF%84%E8%AE%BA%E6%A1%86/"/>
-    <id>http://mxclub.github.io/example/共用一个评论框/</id>
+    <title>多语言</title>
+    <link href="http://mxclub.github.io/example/%E5%A4%9A%E8%AF%AD%E8%A8%80/"/>
+    <id>http://mxclub.github.io/example/多语言/</id>
     <published>2018-12-29T16:00:00.000Z</published>
     <updated>2019-04-08T08:37:19.206Z</updated>
     
-    <content type="html"><![CDATA[<p>写法示例：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">共用一个评论框</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">/top/</span></span><br><span class="line"><span class="attr">  placeholder:</span> <span class="string">你觉得共用一个评论框有意义吗？</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>在主目录找到或者新增<code>language</code>，例如：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">language:</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-CN</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">en</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-HK</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-TW</span></span><br></pre></td></tr></table></figure><p>博客将按照给定的优先级显示语言。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;写法示例：&lt;/p&gt;
-&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;
+        &lt;p&gt;在主目录找到或者新增&lt;code&gt;language&lt;/code&gt;，例如：&lt;/p&gt;
+&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;
       
+    
+    </summary>
+    
+      <category term="教程" scheme="http://mxclub.github.io/blog/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>置顶</title>
+    <link href="http://mxclub.github.io/example/top/"/>
+    <id>http://mxclub.github.io/example/top/</id>
+    <published>2018-12-29T16:00:00.000Z</published>
+    <updated>2019-04-08T08:37:19.206Z</updated>
+    
+    <content type="html"><![CDATA[<p>文章的Front-matter填写<code>top: true</code>就置顶了。<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">top:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p><p>这是一个示例博客。源码目录：<a href="https://github.com/xaoxuu/blog-example" target="_blank" rel="noopener">https://github.com/xaoxuu/blog-example</a></p><a id="more"></a><p><img class="emoji tieba" src="https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/捂嘴笑.png">没有更多了哦。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;文章的Front-matter填写&lt;code&gt;top: true&lt;/code&gt;就置顶了。&lt;br&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;top:&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;这是一个示例博客。源码目录：&lt;a href=&quot;https://github.com/xaoxuu/blog-example&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/xaoxuu/blog-example&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     

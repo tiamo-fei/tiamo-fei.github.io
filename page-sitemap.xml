@@ -8,6 +8,20 @@
     </url>
     
     <url>
+        <loc>http://mxclub.github.io/about/</loc>
+        <lastmod>2019-09-06T07:33:17.605Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://mxclub.github.io/friends/</loc>
+        <lastmod>2019-09-06T07:28:30.152Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>http://mxclub.github.io/projects/</loc>
         <lastmod>2019-04-08T08:37:19.221Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -29,22 +43,8 @@
     </url>
     
     <url>
-        <loc>http://mxclub.github.io/about/</loc>
-        <lastmod>2019-04-08T08:37:19.219Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
         <loc>http://mxclub.github.io/404.html</loc>
         <lastmod>2019-04-08T08:37:19.205Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>http://mxclub.github.io/friends/</loc>
-        <lastmod>2019-03-05T11:47:45.029Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

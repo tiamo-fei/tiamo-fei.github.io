@@ -18,7 +18,14 @@
 
     <url>
         <loc>http://mxclub.github.io/blog/tags/ss/</loc>
-        <lastmod>2019-04-08T08:37:19.207Z</lastmod>
+        <lastmod>2019-09-06T07:20:20.528Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://mxclub.github.io/blog/tags/tips/</loc>
+        <lastmod>2019-09-06T08:09:23.536Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
